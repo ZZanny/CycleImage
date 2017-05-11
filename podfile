@@ -1,4 +1,0 @@
-platform :ios,’8.0’
-    target "UICollectionView轮播图” do
-pod 'SDWebImage', '~> 4.0.0-beta2'
-end

@@ -35,7 +35,7 @@
 	self.scrollView = [[ZZCollectionView alloc]initWithFrame:CGRectMake(0, 64, SCREENWIDTH, SCREENHEIGHT*0.3) images:_sourceImages indicatorType:CycleScrollViewIndicatorTextType];
 	
 	
-
+	self.scrollView.tag = 10086;
 	[self.view addSubview:self.scrollView];
 
 }
